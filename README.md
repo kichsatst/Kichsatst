@@ -4,66 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Final Project</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            padding: 14px 20px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        nav ul li a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #4CAF50;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 10px 0;
-        }
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -85,9 +26,18 @@
         
         <section id="images">
             <h2>My Favorite Images</h2>
-            <img src="https://via.placeholder.com/300?text=Image+1" alt="A beautiful landscape">
-            <img src="https://via.placeholder.com/300?text=Image+2" alt="A stunning sunset">
-            <img src="https://via.placeholder.com/300?text=Image+3" alt="A serene beach">
+            <figure>
+                <img src="https://example.com/image1.jpg" alt="A beautiful landscape">
+                <figcaption>A beautiful landscape</figcaption>
+            </figure>
+            <figure>
+                <img src="https://example.com/image2.jpg" alt="A stunning sunset">
+                <figcaption>A stunning sunset</figcaption>
+            </figure>
+            <figure>
+                <img src="https://example.com/image3.jpg" alt="A serene beach">
+                <figcaption>A serene beach</figcaption>
+            </figure>
         </section>
         
         <section id="favorites">
