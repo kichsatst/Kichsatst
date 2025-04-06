@@ -3,56 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Final Project</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Vorix - Creative Digital Agency</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
+    <header class="container-fluid bg-dark text-white text-center py-3">
+        <h1>Vorix - Creative Digital Agency</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#images">Images</a></li>
-            <li><a href="#favorites">Favorites</a></li>
-            <li><a href="#resources">Resources</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>About This Project</h2>
-            <p>This is a simple HTML page created for my final project.</p>
+    <main class="container my-5">
+        <section>
+            <h2>About Vorix</h2>
+            <p>Vorix is a versatile and dynamic React Next JS template for Creative and Digital Agencies. It includes over 15+ high-quality pages, including two stunning home pages, service pages, portfolio pages, team pages, testimonials, blog layouts, and more.</p>
         </section>
-        
-        <section id="images">
-            <h2>My Favorite Images</h2>
-            <figure>
-                <img src="https://example.com/image1.jpg" alt="A beautiful landscape">
-                <figcaption>A beautiful landscape</figcaption>
-            </figure>
-            <figure>
-                <img src="https://example.com/image2.jpg" alt="A stunning sunset">
-                <figcaption>A stunning sunset</figcaption>
-            </figure>
-            <figure>
-                <img src="https://example.com/image3.jpg" alt="A serene beach">
-                <figcaption>A serene beach</figcaption>
-            </figure>
-        </section>
-        
-        <section id="favorites">
-            <h2>My Favorite Things</h2>
+        <section>
+            <h2>Features</h2>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
+                <li>2 Home Pages</li>
+                <li>14+ Additional Pages</li>
+                <li>Dark/Light Mode Support</li>
+                <li>Vanilla JavaScript Integration</li>
+                <li>Built with Bootstrap 5</li>
+                <li>Swiper Slider</li>
+                <li>Parallax Effects</li>
+                <li>Interactive Contact Form</li>
+                <li>Clean, Organized Code</li>
+                <li>Cross-Browser Compatibility</li>
+                <li>Google Fonts</li>
+                <li>Material Icons</li>
+                <li>Modern, Aesthetic Design</li>
+                <li>Easy to Customize</li>
+                <li>Comprehensive Documentation</li>
+                <li>Free Fonts and Icons</li>
+                <li>24/7 Customer Support</li>
             </ul>
         </section>
-        
-        <section id="resources">
-            <h2>External Resources</h2>
-            <p>Check out this awesome resource: <a href="https://www.example.com" target="_blank">Example Website</a></p>
+        <section>
+            <h2>Gallery</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Gallery Image 1" class="img-fluid mb-3">
+            <img src="https://via.placeholder.com/800x400" alt="Gallery Image 2" class="img-fluid mb-3">
         </section>
     </main>
+    <footer class="container-fluid bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Vorix. All rights reserved.</p>
+    </footer>
+    <script>
+        // Script to toggle dark mode
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
 </body>
 </html>
